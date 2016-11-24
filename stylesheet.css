@@ -1,12 +1,27 @@
 body {
 width: 500px;
 height: 100px;
+background-color: #ffff00;
 }
 
 button {
   width: 6em;
-  height: 4em;
-  margin-bottom: 4px;
+  height: 6em;
+  margin-bottom: 6px;
+  background-color: #e7e7e7; color: black;
+}
+
+/* input release/dashboard button styling*/
+input {
+  width: 12em;
+  height: 6em;
+  margin-bottom: 6px;
+}
+
+/* kev image*/
+img {
+    height: 50px;
+    width: 10%;
 }
 
 /* The switch - the box around the slider */
