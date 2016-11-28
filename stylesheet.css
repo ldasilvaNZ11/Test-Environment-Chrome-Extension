@@ -1,28 +1,40 @@
 body {
-width: 500px;
-height: 100px;
+width: 400px;
 background-color: #ffff00;
 }
 
 button {
-  width: 6em;
-  height: 6em;
+  /*width: 6em;  
+  height: 6em;*/
+/*  border: none;
+  background: green;
+  color: white;*/
+  padding: 1em;
   margin-bottom: 6px;
-  background-color: #e7e7e7; color: black;
+  background-color: #e7e7e7;
+  color: black;
   border-radius: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover
+{
+  background: blue;
+  color: white;
 }
 
 /* input release/dashboard button styling*/
 input {
-  width: 12em;
-  height: 6em;
+  /*width: 12em;
+  height: 6em;*/
+  padding: 0.5em;
   margin-bottom: 6px;
 }
 
 /* kev image*/
-img {
-    height: 50px;
-    width: 10%;
+img {    
+    width: 20%;
 }
 
 /* The switch - the box around the slider */
