@@ -3,10 +3,10 @@ var buttons = document.getElementsByTagName('button');
 for (var i = 0; i < buttons.length; i ++) {
   buttons[i].onclick = function() {
     if (document.getElementById("previewCheckBox").checked) {
-      window.open("http://preview.test" + this.textContent.replace(" ", "") + ".trademe.co.nz/");
+      window.open("http://preview.test" + this.textContent + ".trademe.co.nz/");
     }
     else {
-        window.open("http://www.test" + this.textContent.replace(" ", "") + ".trademe.co.nz/");
+        window.open("http://www.test" + this.textContent + ".trademe.co.nz/");
     }
   };
 }
@@ -26,3 +26,27 @@ function releaseClicker(){
 };
 
 document.getElementById('releaseClick').addEventListener('click', releaseClicker);
+
+
+// takes user to team city http://teamcity.trademe.local/project.html?projectId=TradeMeTradeMe2&tab=projectOverview
+function teamCityClicker(){
+  window.open("http://teamcity.trademe.local/project.html?projectId=TradeMeTradeMe2&tab=projectOverview");
+};
+
+document.getElementById('teamCityClick').addEventListener('click', releaseClicker);
+
+
+// takes user to jenkins automation page http://tmwsautomation1:8080
+function jenkinsClicker(){
+  window.open("http://tmwsautomation1:8080");
+};
+
+document.getElementById('jenkinsClick').addEventListener('click', releaseClicker);
+
+
+// takes user to preview dashboard
+function previewDashboardClicker(){
+  window.open("https://release.trademe.local/Dashboard/TradeMe.FrEnd");
+};
+
+document.getElementById('previewDashboardClick').addEventListener('click', releaseClicker);
