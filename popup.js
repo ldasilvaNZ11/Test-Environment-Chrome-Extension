@@ -33,7 +33,7 @@ function teamCityClicker(){
   window.open("http://teamcity.trademe.local/project.html?projectId=TradeMeTradeMe2&tab=projectOverview");
 };
 
-document.getElementById('teamCityClick').addEventListener('click', releaseClicker);
+document.getElementById('teamCityClick').addEventListener('click', teamCityClicker);
 
 
 // takes user to jenkins automation page http://tmwsautomation1:8080
@@ -41,7 +41,7 @@ function jenkinsClicker(){
   window.open("http://tmwsautomation1:8080");
 };
 
-document.getElementById('jenkinsClick').addEventListener('click', releaseClicker);
+document.getElementById('jenkinsClick').addEventListener('click', jenkinsClicker);
 
 
 // takes user to preview dashboard
@@ -49,4 +49,4 @@ function previewDashboardClicker(){
   window.open("https://release.trademe.local/Dashboard/TradeMe.FrEnd");
 };
 
-document.getElementById('previewDashboardClick').addEventListener('click', releaseClicker);
+document.getElementById('previewDashboardClick').addEventListener('click', previewDashboardClicker);
