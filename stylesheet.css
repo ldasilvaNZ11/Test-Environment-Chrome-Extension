@@ -28,7 +28,7 @@ button:hover
 input {
   /*width: 12em;
   height: 6em;*/
-  padding: 3em;
+  padding: 0.5em;
   margin-bottom: 6px;
   color: blue;
 }
