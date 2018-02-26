@@ -3,7 +3,7 @@
 
   "name": "Test Environments - TradeMe",
   "description": "This extension will allow user to access different test environments.",
-  "version": "2.0",
+  "version": "2.1",
 
   "browser_action": {
    "default_icon": "Icon_16x16.png",
