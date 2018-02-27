@@ -19,6 +19,13 @@ function dashClicker(){
 
 document.getElementById('dashClick').addEventListener('click', dashClicker);
 
+// deploy error dashboard button takes user to http://go/errors-dashboard/
+function deployErrorsDashClicker(){
+  window.open("http://go/errors-dashboard/");
+};
+
+document.getElementById('dashClick').addEventListener('click', dashClicker);
+
 
 // release button takes user to https://release.trademe.local/
 function releaseClicker(){
