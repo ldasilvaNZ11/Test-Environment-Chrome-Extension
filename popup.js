@@ -36,9 +36,9 @@ function teamCityClicker(){
 document.getElementById('teamCityClick').addEventListener('click', teamCityClicker);
 
 
-// takes user to jenkins automation page http://tmwsautomation1:8080
+// takes user to jenkins automation page https://jenkins.trademe.local
 function jenkinsClicker(){
-  window.open("http://tmwsautomation1:8080");
+  window.open("https://jenkins.trademe.local");
 };
 
 document.getElementById('jenkinsClick').addEventListener('click', jenkinsClicker);
