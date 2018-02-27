@@ -35,9 +35,9 @@ function releaseClicker(){
 document.getElementById('releaseClick').addEventListener('click', releaseClicker);
 
 
-// takes user to team city http://teamcity.trademe.local/project.html?projectId=TradeMeTradeMe2&tab=projectOverview
+// takes user to team city https://teamcity.trademe.local/project.html?projectId=TradeMeTradeMe2
 function teamCityClicker(){
-  window.open("http://teamcity.trademe.local/project.html?projectId=TradeMeTradeMe2&tab=projectOverview");
+  window.open("https://teamcity.trademe.local/project.html?projectId=TradeMeTradeMe2");
 };
 
 document.getElementById('teamCityClick').addEventListener('click', teamCityClicker);
