@@ -24,7 +24,7 @@ function deployErrorsDashClicker(){
   window.open("http://go/errors-dashboard/");
 };
 
-document.getElementById('dashClick').addEventListener('click', dashClicker);
+document.getElementById('deployErrorsDashClick').addEventListener('click', deployErrorsDashClicker);
 
 
 // release button takes user to https://release.trademe.local/
