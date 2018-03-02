@@ -3,19 +3,28 @@ width: 400px;
 background-color: #ffff00;
 }
 
+/* aligning environment buttons 1A, 1B etc... */
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+
 button {
   /*width: 6em;
   height: 6em;*/
 /*  border: none;
   background: green;
   color: white;*/
-  padding: 1em;
+  padding: 0.5em;
   margin-bottom: 6px;
   background-color: #e7e7e7;
   color: black;
   border-radius: 25px;
   text-transform: uppercase;
   cursor: pointer;
+  width: 40px;
+  height: 40px;
 }
 
 button:hover

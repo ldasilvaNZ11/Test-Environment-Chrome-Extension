@@ -1,5 +1,6 @@
 // This function enables user to open trademe and preview environments when checkbox is on/off
-var buttons = document.getElementsByTagName('button');
+//var buttons = document.getElementsByTagName('button');
+var buttons = document.getElementsByClassName('test');
 for (var i = 0; i < buttons.length; i ++) {
   buttons[i].onclick = function() {
     if (document.getElementById("previewCheckBox").checked) {
@@ -11,6 +12,26 @@ for (var i = 0; i < buttons.length; i ++) {
   };
 }
 
+// integrate button takes user to https://www.integrate.trademe.co.nz/
+function integrateClicker(){
+  window.open("https://www.integrate.trademe.co.nz/");
+};
+
+document.getElementById('integrateClick').addEventListener('click', integrateClicker);
+
+// stage button takes user to https://www.stage.trademe.co.nz/
+function stageClicker(){
+  window.open("https://www.stage.trademe.co.nz/");
+};
+
+document.getElementById('stageClick').addEventListener('click', stageClicker);
+
+// Prod button takes user to https://www.trademe.co.nz/
+function prodClicker(){
+  window.open("https://www.trademe.co.nz");
+};
+
+document.getElementById('prodClick').addEventListener('click', prodClicker);
 
 // dashboard button takes user to https://release.trademe.local/Dashboard/TradeMe.TradeMe
 function dashClicker(){

@@ -1,98 +1,106 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Test Environment</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
-  </head>
-  <body>
-    <!-- Rounded switch -->
-    <label class="switch">
-      <input id="previewCheckBox" type="checkbox">
-      <div class="slider round">
-      </div>
-    </label>
-      <h5>Preview ON/OFF</h5>
-
-    <div>
-      <button>1a</button>
-      <button>1b</button>
-      <button>1c</button>
-      <button>1d</button>
-      <button>1e</button>
-      <button>1f</button>
-      <button>1g</button>
-      <button>1h</button>
+<head>
+  <title>Test Environment</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
+</head>
+<body>
+  <!-- Rounded switch -->
+  <label class="switch">
+    <input id="previewCheckBox" type="checkbox">
+    <div class="slider round">
     </div>
+  </label>
+    <h5>Preview OFF/ON</h5>
 
-    <div>
-      <button>2a</button>
-      <button>2b</button>
-      <button>2c</button>
-      <button>2d</button>
-      <button>2e</button>
-      <button>2f</button>
-      <button>2g</button>
-      <button>2h</button>
-    </div>
+<div class="flex-container">
+  <div>
+    <button class='test'>1a</button>
+    <button class='test'>1b</button>
+    <button class='test'>1c</button>
+    <button class='test'>1d</button>
+    <button class='test'>1e</button>
+    <button class='test'>1f</button>
+    <button class='test'>1g</button>
+    <button class='test'>1h</button>
+  </div>
 
-    <div>
-      <button>3a</button>
-      <button>3b</button>
-      <button>3c</button>
-      <button>3d</button>
-      <button>3e</button>
-      <button>3f</button>
-      <button>3g</button>
-      <button>3h</button>
-    </div>
+  <div>
+    <button class='test'>2a</button>
+    <button class='test'>2b</button>
+    <button class='test'>2c</button>
+    <button class='test'>2d</button>
+    <button class='test'>2e</button>
+    <button class='test'>2f</button>
+    <button class='test'>2g</button>
+    <button class='test'>2h</button>
+  </div>
 
-    <div>
-      <button>4a</button>
-      <button>4b</button>
-      <button>4c</button>
-      <button>4d</button>
-      <button>4e</button>
-      <button>4f</button>
-      <button>4g</button>
-      <button>4h</button>
-    </div>
+  <div>
+    <button class='test'>3a</button>
+    <button class='test'>3b</button>
+    <button class='test'>3c</button>
+    <button class='test'>3d</button>
+    <button class='test'>3e</button>
+    <button class='test'>3f</button>
+    <button class='test'>3g</button>
+    <button class='test'>3h</button>
+  </div>
 
-    <div>
-      <button>5a</button>
-      <button>5b</button>
-      <button>5c</button>
-      <button>5d</button>
-      <button>5e</button>
-      <button>5f</button>
-      <button>5g</button>
-      <button>5h</button>
-    </div>
+  <div>
+    <button class='test'>4a</button>
+    <button class='test'>4b</button>
+    <button class='test'>4c</button>
+    <button class='test'>4d</button>
+    <button class='test'>4e</button>
+    <button class='test'>4f</button>
+    <button class='test'>4g</button>
+    <button class='test'>4h</button>
+  </div>
 
-    <div>
-      <button>6a</button>
-      <button>6b</button>
-      <button>6c</button>
-      <button>6d</button>
-      <button>6e</button>
-      <button>6f</button>
-      <button>6g</button>
-      <button>6h</button>
-    </div>
+  <div>
+    <button class='test'>5a</button>
+    <button class='test'>5b</button>
+    <button class='test'>5c</button>
+    <button class='test'>5d</button>
+    <button class='test'>5e</button>
+    <button class='test'>5f</button>
+    <button class='test'>5g</button>
+    <button class='test'>5h</button>
+  </div>
 
-    <div>
-      <input id="releaseClick" type="button" value= "RM2">
-      <input id="deployErrorsDashClick" type="button" value= "DeployErrorsDash">
-      <input id="dashClick" type="button" value= "DeployDash">
-      <input id="jenkinsClick" type="button" value= "Jenkins">
-      <input id="teamCityClick" type="button" value= "TeamCity">
-      <input id="previewDashboardClick" type="button" value= "PreviewDash">
-      
-    </div>
+  <div>
+    <button class='test'>6a</button>
+    <button class='test'>6b</button>
+    <button class='test'>6c</button>
+    <button class='test'>6d</button>
+    <button class='test'>6e</button>
+    <button class='test'>6f</button>
+    <button class='test'>6g</button>
+    <button class='test'>6h</button>
+  </div>
 
-    <div>
-      <img src="Kev_wiki_homepage (1).png" alt="kev icon">
-    </div>
+</div>
+<div class="flex-container">
+  <div>
+    <button id="integrateClick" type="button" value= "INT">INT</button>
+    <button id="stageClick" type="button" value= "STG">STG</button>
+    <button id="prodClick" type="button" value= "PROD">PROD</button>
+  </div>
 
-    <script src="popup.js"></script>
-  </body>
+  <div>
+    <input id="releaseClick" type="button" value= "RM2">
+    <input id="deployErrorsDashClick" type="button" value= "DeployErrorsDash">
+    <input id="dashClick" type="button" value= "DeployDash">
+    <input id="jenkinsClick" type="button" value= "Jenkins">
+    <input id="teamCityClick" type="button" value= "TeamCity">
+    <input id="previewDashboardClick" type="button" value= "PreviewDash">
+  </div>
+</div>
+  <div>
+    <img src="Kev_wiki_homepage (1).png" alt="kev icon">
+  </div>
+
+  <script src="popup.js"></script>
+</body>
 </html>
